@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="studio\GameStudioModelRenderer.cpp">
+      <Filter>Studio</Filter>
+    </ClCompile>
+    <ClCompile Include="studio\studio_util.cpp">
+      <Filter>Studio</Filter>
+    </ClCompile>
+    <ClCompile Include="studio\StudioModelRenderer.cpp">
+      <Filter>Studio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="studio\GameStudioModelRenderer.h">
+      <Filter>Studio</Filter>
+    </ClInclude>
+    <ClInclude Include="studio\studio_util.h">
+      <Filter>Studio</Filter>
+    </ClInclude>
+    <ClInclude Include="studio\StudioModelRenderer.h">
+      <Filter>Studio</Filter>
+    </ClInclude>
+    <ClInclude Include="hlsdk.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="detours.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Studio">
+      <UniqueIdentifier>{d9647c28-c631-43d8-806e-b7080caba7e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib" />
+  </ItemGroup>
+</Project>
